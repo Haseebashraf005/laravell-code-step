@@ -8,6 +8,7 @@
 </head>
 <body>
     <p>this is first program</p>
-    
+    <h1>About {{ $company }}</h1>
+
 </body>
 </html>  

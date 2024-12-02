@@ -5,10 +5,8 @@ use App\Http\Controllers\UserControler;
 
 
 
-Route::get('/', function () { 
-    return view('welcome');
-});
- 
+Route::view('/','welcome',['company' => 'MyCompany']);
+
 
 
 Route::get('/home/{name}', [UserControler::class,'home']);
